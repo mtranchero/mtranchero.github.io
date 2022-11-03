@@ -153,6 +153,14 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script language="javascript">
+    function autoResizeDiv()
+    {
+        document.getElementById('main').style.height = window.innerHeight +'px';
+    }
+    window.onresize = autoResizeDiv;
+    autoResizeDiv();
+  </script>
   <!-- progreesbar script -->
   </script>
 </body>

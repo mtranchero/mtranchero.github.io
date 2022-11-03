@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #000205;
+  height: 100vh;
 }
 
 
@@ -81,6 +82,7 @@ a {
 /*header section*/
 .top_container {
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
 }
 
 .header_section {}
@@ -503,8 +505,8 @@ a:focus {
 /* end contact section */
 /* info section */
 .info_section {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #335b81;
   background-color: #ccd6e0;
 }
