@@ -640,3 +640,43 @@ iframe, object, embed {
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
+
+details {
+  font-family: 'Roboto', sans-serif;
+  color: #000205;
+  display: flex;
+  flex-direction: column; 
+}
+
+/*abstract expansions
+.abstract {
+  position: relative;
+  overflow: hidden;
+  max-height: 80px;
+  
+}
+.abstract:target {
+  height: auto;
+}
+
+.toggle{
+  padding: 2px;
+  color: #335b81; 
+}
+
+.toggle:focus ~ .abstract {
+  max-height: 100%;
+}
+
+
+a.box-toggle {
+  display: inline-block;
+  padding-left: 22px;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-image: url(http://255.galaxycore.de/img/ic_action_calendar.png);
+}
+
+a.box-toggle.inactive {
+  background-image: url(http://255.galaxycore.de/img/ic_action_home.png);
+}*/
