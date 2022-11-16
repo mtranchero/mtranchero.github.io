@@ -53,6 +53,7 @@ a {
   align-items: center;
 }
 
+
 .call_to-btn img,
 .sub_call_to-btn img {
   width: 9px;
@@ -640,6 +641,7 @@ iframe, object, embed {
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
+<<<<<<< HEAD
 
 details {
   font-family: 'Roboto', sans-serif;
@@ -680,3 +682,5 @@ a.box-toggle {
 a.box-toggle.inactive {
   background-image: url(http://255.galaxycore.de/img/ic_action_home.png);
 }*/
+=======
+>>>>>>> 227d6651b55e08d004871a48de3c9bf18adaa293
