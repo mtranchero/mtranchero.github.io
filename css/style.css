@@ -17,6 +17,8 @@ h4 {
   color: #335b81;
 }
 
+
+
 a {
   color: #335b81;
 }
@@ -111,6 +113,7 @@ nav.navbar.navbar-expand-lg {
   text-decoration: underline;
 }
 
+
 a,
 a:hover,
 a:focus {
@@ -148,7 +151,8 @@ a:focus {
 
 .navbar-brand,
 .navbar-brand:hover {
-  font-size: 30px;
+  font-size: max(30px, 4vw);
+
   color: #003262;
   font-weight: bold;
   position: relative;
@@ -392,6 +396,7 @@ a:focus {
 
 .welcome_container {
   padding: 30px 0;
+  min-width: 60%;
 }
 
 .welcome_container>* {
@@ -407,6 +412,10 @@ a:focus {
   font-family: 'Poppins', sans-serif;
 }
 
+.welcome_container p{
+  margin: 0;
+}
+
 .welcome_section::before {
   content: "";
   width: 40%;
@@ -419,6 +428,36 @@ a:focus {
   background-size: cover;
 }
 /* end welcome section */
+
+
+/* start predoc section */
+
+#predoc {
+  padding: 30px 0;
+  min-width: 60%;
+  display:none;
+}
+
+#predoc>* {
+  margin-bottom: 35px;
+}
+
+#predoc h4 {
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+}
+
+#predoc p {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+#predoc_toggle:hover {
+  text-decoration: underline;
+}
+/* end predoc section */
+
+
 
 /* start teaching section */
 
@@ -641,13 +680,13 @@ iframe, object, embed {
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-<<<<<<< HEAD
 
 details {
   font-family: 'Roboto', sans-serif;
   color: #000205;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
+  padding: 10px;
 }
 
 /*abstract expansions
@@ -682,5 +721,3 @@ a.box-toggle {
 a.box-toggle.inactive {
   background-image: url(http://255.galaxycore.de/img/ic_action_home.png);
 }*/
-=======
->>>>>>> 227d6651b55e08d004871a48de3c9bf18adaa293
