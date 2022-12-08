@@ -3,7 +3,7 @@ body {
   color: #000205;
   height: 80%;
   min-height: 80vh;
-  max-height: 100vh;
+  
   display: flex;
   flex-direction: column;
 }
@@ -152,7 +152,7 @@ a:focus {
 
 .navbar-brand,
 .navbar-brand:hover {
-  font-size: max(30px, 4vw);
+  font-size: max(25px, 3.0vw);
 
   color: #003262;
   font-weight: bold;
@@ -727,4 +727,8 @@ a.box-toggle.inactive {
 
 img#twitter {
   max-width: 35px;
+}
+
+div.paper {
+  padding: 5px;
 }
