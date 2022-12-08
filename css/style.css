@@ -721,3 +721,8 @@ a.box-toggle {
 a.box-toggle.inactive {
   background-image: url(http://255.galaxycore.de/img/ic_action_home.png);
 }*/
+
+
+img#twitter {
+  max-width: 35px;
+}
