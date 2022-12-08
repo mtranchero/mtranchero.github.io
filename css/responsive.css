@@ -64,6 +64,9 @@
 }
 
 @media (max-width: 576px) {
+    body {
+        max-height: none;
+    }
     .hero_section-container {
         flex-direction: column;
     }
