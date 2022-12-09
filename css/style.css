@@ -735,3 +735,26 @@ img#twitter {
 div.paper {
   padding: 5px;
 }
+
+
+/*data and teaching descriptions*/
+
+img.imginsert{
+  max-width: 40vw;
+}
+
+div[id^="course"]{
+  display:none;
+}
+
+#class_toggle:hover {
+  text-decoration: underline;
+}
+
+#project_toggle:hover {
+  text-decoration: underline;
+}
+
+div[id^="proj"]{
+  display:none;
+}

@@ -94,39 +94,68 @@
   <section class=" position-relative">
     <div class="container ">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <div class="welcome_container">
             <h2>
               Data Projects
             </h2>
+            
             <div>
               <h4>
-                Project 1
+                <a id="project_toggle" onclick="toggle_visibility('proj0');">Project 1: FSRDC</a>
               </h4>
-              <p>
-                Description 1
-              </p>
-            </div>
-            <br>
-            <div>
-              <h4>
-                Project 2
-              </h4>
-              <p>
-                Description 2
-              </p>
               
-            </div>
-            <br>
-            <div>
-                <h4>
-                  Project 3
-                </h4>
-                <p>
-                  Description 3
-                </p>
+              <div id='proj0' class="row pb-6">
+                <div class="col-md-6">
+                  <p>
+                    This course introduces students to probability and random variables. 
+                    Topics include distribution functions, binomial, geometric, hypergeometric, 
+                    and Poisson distributions. The other topics covered are uniform, exponential, 
+                    normal, gamma and beta distributions; conditional probability; Bayes theorem; 
+                    joint distributions; Chebyshev inequality; law of large numbers; and central limit theorem.
+                  </p>
+                  <p>
+                    [<a href="">Github</a>]  [<a href="">Data</a>]
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <img class="imginsert" src="images/data.png">
+                </div>
+              </div>
                 
             </div>
+
+
+            <div>
+              <h4>
+                <a id="project_toggle" onclick="toggle_visibility('proj1');">Project 2: Gene Landscape</a>
+              </h4>
+              
+              <div id='proj1' class="row pb-6">
+                <div class="col-md-6">
+                  <p>
+                    This course introduces students to probability and random variables. 
+                    Topics include distribution functions, binomial, geometric, hypergeometric, 
+                    and Poisson distributions. The other topics covered are uniform, exponential, 
+                    normal, gamma and beta distributions; conditional probability; Bayes theorem; 
+                    joint distributions; Chebyshev inequality; law of large numbers; and central limit theorem.
+                  </p>
+                  <p>
+                    [<a href="">Github</a>]  [<a href="">Data</a>]
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <img class="imginsert" src="images/data.png">
+                </div>
+              </div>
+                
+            </div>
+
+
+
+
             <br>
           </div>
         </div>
@@ -188,7 +217,18 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <!-- progreesbar script -->
 
-  </script>
+  <script type="text/javascript">
+    <!--
+        function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'flex')
+              e.style.display = 'none';
+           else
+              e.style.display = 'flex';
+        }
+    //-->
+    </script>
+
 </body>
 
 </html>
