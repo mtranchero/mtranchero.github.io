@@ -4081,12 +4081,15 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  
 }
 
 .nav-tabs .nav-link {
   border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -4105,6 +4108,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
   font-weight: bold;
+  font-size: ;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4192,6 +4196,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  padding: 5px;
 }
 
 .navbar-nav .nav-link {
