@@ -758,5 +758,5 @@ div[id^="course"]{
 }
 
 div[id^="proj"]{
-  display:none;
+  display:flex;
 }
