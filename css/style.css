@@ -746,7 +746,7 @@ img.imginsert{
 }
 
 div[id^="course"]{
-  display: flex;
+  display:none;
 }
 
 #class_toggle:hover {
@@ -758,5 +758,5 @@ div[id^="course"]{
 }
 
 div[id^="proj"]{
-  display:none;
+  display:flex;
 }
