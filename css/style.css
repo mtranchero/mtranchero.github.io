@@ -236,8 +236,10 @@ a:focus {
   margin-top: 45px;
   border-radius: 50%; */
   max-width: 40%;
+  max-height: 60vh;
+  padding: 20px;
   margin-left: 10%;
-  clip-path: circle(40%);
+  clip-path: circle(100%);
   overflow: hidden; 
   display: flex;
   justify-content: center;
