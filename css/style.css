@@ -239,9 +239,9 @@ a:focus {
   max-height: 60vh;
   padding: 20px;
   margin-left: 10%;
-  clip-path: circle(100%);
+  /*clip-path: circle(100%);*/
   overflow: hidden; 
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
 }

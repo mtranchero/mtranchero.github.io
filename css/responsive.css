@@ -72,7 +72,7 @@
     }
     
     .navbar-brand {
-        font-size: 20px;
+        font-size: 30px;
     }
 
 
@@ -81,9 +81,11 @@
     }
 
     .hero_section-container .hero_img-box {
-        width: 60%;
+        
         margin-left: 0;
         max-width: 100%;
+        max-height: 100vh;
+        
     }
 
     .hero_section-container .hero_detail-box {
